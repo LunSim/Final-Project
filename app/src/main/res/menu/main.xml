@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/eng_kh"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/eng_kh"
+                android:title="ENGLISH - KHMER"
+                android:icon="@drawable/eng_kh"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/kh_eng"
+                android:title="KHMER - ENGLISH"
+                android:icon="@drawable/kh_eng"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/kh_kh"
+                android:title="KHMER - KHMER"
+                android:icon="@drawable/kh_kh"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>
